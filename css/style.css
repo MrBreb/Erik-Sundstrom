@@ -1,1 +1,54 @@
-/* Denna fil skall innehålla din CSS kod */
+body{
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+    min-height: 200%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+#logga{
+    max-block-size: 6.5em;
+    justify-self: center;
+}
+
+
+#bigSec{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#vitaBlommor{
+    grid-column: 1;
+    grid-row: 1;
+    max-block-size: 25em;
+    min-block-size: 25em;
+}
+
+#text1{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: aqua;
+}
+
+#Solnedgång{
+    grid-column: 2;
+    grid-row: 2;
+    min-block-size: 25em;
+    max-block-size: 25em;
+
+}
+
+#text2{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: aqua;
+}
+
+footer{
+    grid-row: 3;
+}
