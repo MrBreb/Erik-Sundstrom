@@ -1,7 +1,14 @@
 body{
+    background-color: #7b8c78;
+    min-width: 100%;
+}
+
+#wrapper{
     display: grid;
     grid-template-rows: 1fr 7fr 1fr;
-    min-height: 200%;
+    max-width: 70%;
+    background-color: #ceb38d;
+    justify-self: center;
 }
 
 header{
@@ -22,17 +29,23 @@ header{
     grid-template-rows: 1fr 1fr;
 }
 
+.bigSecContent{
+    border: solid;
+}
+
 #vitaBlommor{
     grid-column: 1;
     grid-row: 1;
     max-block-size: 25em;
     min-block-size: 25em;
+    
 }
 
 #text1{
     grid-column: 2;
     grid-row: 1;
-    background-color: aqua;
+    background-color: #d9c8b0;
+
 }
 
 #Solnedgång{
@@ -47,6 +60,7 @@ header{
     grid-column: 1;
     grid-row: 2;
     background-color: aqua;
+
 }
 
 footer{
