@@ -6,7 +6,7 @@ body{
 #wrapper{
     display: grid;
     grid-template-rows: 1fr 7fr 1fr;
-    max-width: 70%;
+    max-width: 71%;
     background-color: #ceb38d;
     justify-self: center;
 }
@@ -18,48 +18,58 @@ header{
 
 #logga{
     max-block-size: 6.5em;
-    justify-self: center;
+    
 }
 
 
 #bigSec{
     grid-row: 2;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.bigSecContent{
-    border: solid;
+#upperImageAndText{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
+
 
 #vitaBlommor{
     grid-column: 1;
-    grid-row: 1;
-    max-block-size: 25em;
-    min-block-size: 25em;
-    
+    height: 20em;
+    align-self: center;
 }
 
 #text1{
     grid-column: 2;
-    grid-row: 1;
     background-color: #d9c8b0;
+    padding: 0.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    height: 20em;
+    align-self: center;
+}
 
+#lowerImageAndText{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 #Solnedgång{
-    grid-column: 2;
-    grid-row: 2;
-    min-block-size: 25em;
-    max-block-size: 25em;
+    grid-column: 1;
+    height: 20em;
+    align-self: center;
 
 }
 
 #text2{
     grid-column: 1;
-    grid-row: 2;
-    background-color: aqua;
+    background-color: #d9c8b0;
+    padding: 0.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    max-height: 13.4em;
+    min-height: 13.4em;
 
 }
 
