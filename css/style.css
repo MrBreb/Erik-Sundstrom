@@ -50,18 +50,22 @@ grid-template-rows: 1fr 1fr;
     margin: 0.5em;
 }
 
-#lavendel{
+#rosaBlomma{
     grid-column: 1;
     margin: 0.5em;
-    background-color: rgb(88, 74, 53);
-    min-height: 80px;
-    max-height: 80px;
+    height: 29em;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 0rem 0rem 1rem;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.331);
 }
 
 #paragraf1{
     grid-column: 2;
     margin: 0.5em;
-    background-color: rgb(88, 74, 53);
+    background-color: bisque;
+    border-radius: 0rem 1rem 1rem 0rem;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.331);
 }
 
 #lowerImgText{
@@ -75,7 +79,11 @@ grid-template-rows: 1fr 1fr;
 #syren{
     grid-column: 2;
     margin: 0.5em;
-    background-color: rgb(88, 74, 53);
+    height: 29em;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0rem 1rem 1rem 0rem;
+    
 }
 
 #paragraf2{
@@ -83,6 +91,7 @@ grid-template-rows: 1fr 1fr;
     grid-column: 1;
     margin: 0.5em;
     background-color: rgb(88, 74, 53);
+    border-radius: 1rem 0rem 0rem 1rem;
 }
 
 footer{
