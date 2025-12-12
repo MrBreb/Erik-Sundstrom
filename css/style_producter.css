@@ -1,0 +1,106 @@
+body{
+    background-color: #7b8c78;
+    min-width: 100%;
+}
+
+
+#wrapper{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    width: 90%;
+    background-color: #ceb38d;
+    justify-self: center;
+}
+
+header{
+    display: grid;
+    
+    grid-template-columns: 2fr 2fr 1fr;
+    background-color:bisque;
+    box-shadow: 0px 0.3em 2em 0em rgba(0, 0, 0, 0.3);
+}
+
+#bigSec{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2em;
+
+}
+
+#horizSec1{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#horizSec2{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.produktSectioner{
+    background-color: bisque;
+    width: 20em;
+    height: 10em;
+    margin: 2em;
+    display: flex;
+}
+
+.produktBilder{
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    display: flex;
+    justify-self: left;
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.läsMer{
+    margin-top: auto;
+    margin-bottom: 1em;
+}
+
+.pris{
+    margin-bottom: auto;
+    font-size: 1.3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.2em;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    color: #54432a;
+}
+
+.prisRea{
+    margin-bottom: auto;
+    margin-top: -0.9em;
+    font-size: 1.3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 0, 0, 0.553);
+    padding: 0.2em;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    
+}
+
+.prisInnan{
+    margin-top: 0.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: line-through ;
+    color: #927a58;
+}
