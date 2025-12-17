@@ -14,10 +14,35 @@ body{
 
 header{
     display: grid;
-    
+    height: 7.8em;
     grid-template-columns: 2fr 2fr 1fr;
     background-color:bisque;
     box-shadow: 0px 0.3em 2em 0em rgba(0, 0, 0, 0.3);
+}
+
+#logga{
+    max-block-size: 6.5em;
+}
+
+#links{
+    font-size: 2em;
+    align-self: center;
+    display: flex;
+    gap: 0.5em;
+    margin-left: -1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linksClass{
+    color: black;
+
+}
+
+.linksClass:hover{
+    color: gray;
 }
 
 #bigSec{
@@ -25,7 +50,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 2em;
+    margin-top: -2em;
 
 }
 
@@ -50,12 +75,58 @@ header{
 
 }
 
+#horizSec3{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#horizSec4{
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#horizSec5{
+    grid-row: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#horizSec6{
+    grid-row: 6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .produktSectioner{
     background-color: bisque;
     width: 20em;
     height: 10em;
     margin: 2em;
     display: flex;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.491);
 }
 
 .produktBilder{
@@ -64,6 +135,7 @@ header{
     object-fit: cover;
     display: flex;
     justify-self: left;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .productInfo{
@@ -71,11 +143,6 @@ header{
     flex-direction: column;
     align-items: center;
     width: 40%;
-}
-
-.läsMer{
-    margin-top: auto;
-    margin-bottom: 1em;
 }
 
 .pris{
@@ -89,7 +156,7 @@ header{
 
 .prisRea{
     margin-bottom: auto;
-    margin-top: -0.9em;
+    margin-top: -3.2em;
     font-size: 1.3em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(255, 0, 0, 0.553);
@@ -99,8 +166,60 @@ header{
 }
 
 .prisInnan{
-    margin-top: 0.2em;
+    margin-top: 2.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: line-through ;
+    text-decoration: line-through;
     color: #927a58;
 }
+
+.läsMerKundvagn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    margin-bottom: 1em;
+}
+
+.kundvagn{
+    height: 1.75em;
+    background-color: bisque;
+    padding: 0.2em;
+    border-radius: 0em 0.7em 0.7em 0em;
+    border: #927a58 solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0em 0.2em 0.1em 0em;
+    transition: all 0.2s ease;
+
+}
+
+.läsMer{
+    display: flex;
+    margin-top: auto;
+    background-color: bisque;
+    padding: 0.5em;
+    border-radius: 0.7em 0em 0em 0.7em;
+    border: #927a58 solid ;
+    border-right: bisque;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0em 0.2em 0.1em 0em;
+    transition: all 0.2s ease;
+
+}
+
+.kundvagn:hover{
+    background-color: #927a58;
+
+}
+
+.kundvagn:active{
+    box-shadow: rgba(0, 0, 0, 0) 0em 0.1em 0.1em 0em;
+}
+
+.läsMer:hover{
+    background-color: #927a58;
+}
+
+.läsMer:active{
+
+    box-shadow: rgba(0, 0, 0, 0) 0em 0.1em 0.1em 0em;
+}
+
