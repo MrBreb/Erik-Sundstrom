@@ -20,12 +20,17 @@ header{
 }
 
 #logga{
-    max-block-size: 6.5em;
+    width: 17em;
+    margin-left: 1em;
+    margin-top: 0.2em;
 }
 
 #links{
     font-size: 2em;
     align-self: center;
+    display: flex;
+    gap: 0.5em;
+    margin-left: -1.5em;
 }
 
 a{
