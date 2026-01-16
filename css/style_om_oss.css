@@ -1,8 +1,12 @@
 body{
     background-color: #7b8c78;
     min-width: 100%;
+    display: flex;
 }
 
+#blackVines{
+    
+}
 
 #wrapper{
     display: grid;
@@ -44,6 +48,30 @@ a{
 
 .linksClass:hover{
     color: gray;
+}
+
+#kontoSec{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: .6em;
+
+}
+
+#profilbild{
+    height: 5em;
+    width: 5em;
+    align-self: center;
+    justify-self: center;
+    border: solid #927a58 3px;
+    border-radius: 100%;
+}
+
+#login{
+    color: black;
+    font-size:  large;
+    align-self: center;
+    justify-self: center;
 }
 
 #bigSec{
